@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: #28a745;
+}
+.container-fluid .navbar-brand{
+    color: #fff;
+}
+#navbarNav{
+    justify-content: end;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+}
+@media (max-width: 992px){
+    .navbar-nav{
+        align-items: end;
+        font-size: 1.2rem;
+        font-family: "Roboto", sans-serif;
+        top: 60px;
+    }
+}
+
+/*****Grupo de cartas******************/
+.card{
+    width: 30rem;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+.card-body .card-title, .card-text, i{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.card-title{
+    color: #212529;
+    opacity: 100%;
+}
+.card-text{
+    color: #707070;
+    opacity: 100%;
+}
+.ubicacion, i{
+    color: #707070;
+    opacity: 100%;
+}
+.card-footer{
+    text-align: end;
+    color: #707070;
+    font-size: 1rem;
+}
+.precio{
+    color: #28a745;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    padding: 15px;
+}
+/****Formulario**************/
+form{
+    background-color: #28a745;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    height: 250px;
+}
+.form-label{
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.form-control{
+    color: #707070;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.submit{
+    color: #212529;
+    align-items: center;
+}
+.derechos{
+    background-color: #fff;
+    height: 30px;
+    width: auto;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+.derechos-footer{
+    color: #707070;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.cuppon-footer{
+    font-size: 1.5rem;
+    padding: 15px 15px 0px 15px;
+    font-weight: bold;
+}

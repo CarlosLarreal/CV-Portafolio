@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  h6 {
+    font-family: ABeeZee;
+    font-size: 14px;
+  }
+
+  p {
+    font-family: Cabin;
+    font-size: 13px;
+  }
+
+  h3 {
+    font-family: Baloo;
+    font-size: 22px;
+  }
+
+  .fas {
+    color: rgb(0, 45, 82);
+
+  }
+  .progress-bar {
+    background: rgb(0, 82, 48);
+  }
+
+  .img {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-items: center;
+  }
+  .footer {
+    position: relative;
+    bottom: -50px;
+    left: 0;
+  }

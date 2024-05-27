@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color:  black;
+}
+h1, h2, p{
+    color: white;
+}
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cabecera h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 25px;
+}
+.first-sect{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 75px 130px;
+}
+.first-sect img{
+    width: 500px;
+    height: 300px;
+    align-items: center;
+}
+.first-sect p{
+    font-size: 1.5rem;
+    padding-right: 75px;
+    text-align: justify;
+}
+/*CARACTERISTICAS*****************************************************************/
+.iconos{
+    width: auto;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E1A13;
+}
+.iconos h2{
+    color: white;
+    font-size: 2.5rem;
+    margin: 35px;
+    padding: 35px;
+}
+.icons a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 3rem;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+/*Last-section*************************************************************************/
+.last-Iguanas{
+    display: flex;
+    flex-direction: row;
+    margin: 80px 150px;
+    justify-content: center;
+    align-items: center;
+}
+.last-Iguanas img{
+    width: 450px;
+    height: 250px;
+    padding: 15px;
+}
+/*footer*******************************************************/
+.referencia{
+    background-color: #1E1A13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 125px;
+}
+.referencia a{
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
